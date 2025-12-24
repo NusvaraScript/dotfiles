@@ -1,0 +1,8 @@
+[Global]
+LookAndFeelSet=Nordic
+
+[Windeco]
+ButtonIconStyle=StyleOxygen
+ButtonShape=ShapeFullHeightRoundedRectangle
+RoundBottomCornersWhenNoBorders=true
+WindowCornerRadius=10
