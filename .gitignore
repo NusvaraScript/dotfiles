@@ -1,31 +1,75 @@
-# --- Global Ignores ---
-*
-!*/
-!.gitignore
+# ==========================================================
+# DOTFILES GITIGNORE (METODE BARE REPO)
+# ==========================================================
 
-# --- Whitelist Folders ---
-# Tambahkan tanda seru (!) di depan folder yang INGIN kamu track
+# 1. Abaikan SEMUA file di Home directory secara default
+*
+
+# 2. Jangan abaikan folder (agar kita bisa masuk ke sub-folder)
+!*/
+
+# 3. Whitelist file utama
+!.gitignore
+!pkglist.txt
+
+# ==========================================================
+# WHITELIST APLIKASI (Folder yang mau disimpan)
+# ==========================================================
+
+# Shell & Terminal
 !.config/fish/
 !.config/alacritty/
 !.config/kitty/
-!.config/micro/
 !.config/fastfetch/
-!.config/htop/
 
-# --- Whitelist Files (KDE Configs) ---
+# Editor & Tools
+!.config/micro/
+!.config/htop/
+!.config/btop/
+
+# Musik & Media
+!.config/mpd/
+!.config/rmpc/
+!.config/ncmpcpp/
+!.config/haruna/
+
+# Browser & Misc (Hanya config tertentu)
+!.config/chromium-flags.conf
+!.config/code-flags.conf
+
+# ==========================================================
+# WHITELIST KDE PLASMA (Desktop Environment)
+# ==========================================================
 !.config/kwinrc
 !.config/kglobalshortcutsrc
-!.config/plasma-org.kde.plasma.desktop-appletsrc
 !.config/kdeglobals
+!.config/plasmanotifyrc
+!.config/plasmarc
+!.config/plasmashellrc
+!.config/plasma-org.kde.plasma.desktop-appletsrc
+!.config/katerc
+!.config/konsole/
+!.local/share/konsole/
 
-# --- Ignore Junk inside Whitelisted Folders ---
+# ==========================================================
+# BLACKLIST (File sampah yang HARUS diabaikan walau di whitelist)
+# ==========================================================
+# Jangan simpan database/cache meskipun folder induknya di whitelist
 **/.DS_Store
 **/node_modules/
 **/*.log
 **/*.tmp
-**.cache/
+**/*.bak
 
-# --- Sensitive Data (Security) ---
+# Folder spesifik yang sering berubah/besar
+.config/mpd/database
+.config/mpd/state
+.config/gtk-3.0/assets/
+.config/chromium/
+.config/mozilla/
+.cache/
+
+# Data Sensitif
 .ssh/
 .gnupg/
 *.pem
