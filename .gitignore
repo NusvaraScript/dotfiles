@@ -1,0 +1,33 @@
+# --- Global Ignores ---
+*
+!*/
+!.gitignore
+
+# --- Whitelist Folders ---
+# Tambahkan tanda seru (!) di depan folder yang INGIN kamu track
+!.config/fish/
+!.config/alacritty/
+!.config/kitty/
+!.config/micro/
+!.config/fastfetch/
+!.config/htop/
+
+# --- Whitelist Files (KDE Configs) ---
+!.config/kwinrc
+!.config/kglobalshortcutsrc
+!.config/plasma-org.kde.plasma.desktop-appletsrc
+!.config/kdeglobals
+
+# --- Ignore Junk inside Whitelisted Folders ---
+**/.DS_Store
+**/node_modules/
+**/*.log
+**/*.tmp
+**.cache/
+
+# --- Sensitive Data (Security) ---
+.ssh/
+.gnupg/
+*.pem
+*.key
+.env
