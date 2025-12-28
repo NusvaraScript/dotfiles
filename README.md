@@ -2,7 +2,7 @@
 <br>
 I created this dotfiles based on git bare method, which I follow the tutorial from this video: ![Youtube](https://youtu.be/tBoLDpTWVOM?si=kFdQ3KWTqHcOTSCX)
 
-If I am on new system and want to install all aplication at the time, do this:
+If I am on new system and want to install all aplication at the same time, do this:
 
 For official repo: 
 ```bash
