@@ -2,7 +2,9 @@
 Id_1=7d7ea86b-6dc6-4994-844c-8d3901c4a50b
 Id_2=f1c52f71-f6bf-4364-8d96-d46b732ed283
 Id_3=4294fd14-e00a-47ee-b5c0-12ff2a29904a
-Number=3
+Id_4=b13b0e80-b4cd-452d-8327-9f02cf5679b3
+Name_4=New Desktop
+Number=4
 Rows=1
 
 [Effect-blurplus]
@@ -44,16 +46,19 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][4294fd14-e00a-47ee-b5c0-12ff2a29904a][acc1c821-e72e-4adf-b18a-b79468d61f69]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"floating","tiles":[]}
 
 [Tiling][7d7ea86b-6dc6-4994-844c-8d3901c4a50b][acc1c821-e72e-4adf-b18a-b79468d61f69]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"floating","tiles":[]}
+
+[Tiling][b13b0e80-b4cd-452d-8327-9f02cf5679b3][acc1c821-e72e-4adf-b18a-b79468d61f69]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][c165716b-f508-43dc-b91c-d045b747171e][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][f1c52f71-f6bf-4364-8d96-d46b732ed283][acc1c821-e72e-4adf-b18a-b79468d61f69]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"floating","tiles":[]}
 
 [Xwayland]
 Scale=1
