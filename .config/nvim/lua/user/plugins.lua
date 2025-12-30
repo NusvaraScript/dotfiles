@@ -8,6 +8,14 @@ if not vim.loop.fs_stat(lazypath) then
     vim.opt.rtp:prepend(lazypath)
 
     require("lazy").setup({
+        -- Dashboard (Home Screen)
+        {
+            'goolord/alpha-nvim',
+            dependencies = { 'nvim-tree/nvim-web-devicons' },
+            config = function ()
+            require'alpha'.setup(require'alpha.themes.startify'.config)
+            end
+        },
         -- Colorscheme (The "Look")
         { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 
