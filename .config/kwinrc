@@ -1,10 +1,6 @@
 [Desktops]
 Id_1=7d7ea86b-6dc6-4994-844c-8d3901c4a50b
-Id_2=f1c52f71-f6bf-4364-8d96-d46b732ed283
-Id_3=4294fd14-e00a-47ee-b5c0-12ff2a29904a
-Id_4=b13b0e80-b4cd-452d-8327-9f02cf5679b3
-Name_4=New Desktop
-Number=4
+Number=1
 Rows=1
 
 [Effect-blurplus]
@@ -21,12 +17,28 @@ alt-f4-desktopEnabled=true
 blurEnabled=true
 desktopchangeosdEnabled=false
 hidecursorEnabled=true
-krohnkiteEnabled=true
+karouselEnabled=true
+krohnkiteEnabled=false
 minimizeallEnabled=false
 overviewEnabled=false
 poloniumEnabled=false
 translucencyEnabled=true
 videowallEnabled=false
+
+[Script-karousel]
+gapsInnerHorizontal=10
+gapsInnerVertical=10
+gapsOuterBottom=8
+gapsOuterLeft=8
+gapsOuterRight=8
+gapsOuterTop=8
+gestureScroll=true
+gestureScrollInvert=true
+manualScrollStep=400
+offScreenOpacity=95
+resizeNeighborColumn=true
+stackColumnsByDefault=true
+stackOffsetX=10
 
 [Script-krohnkite]
 screenGapBetween=8
@@ -65,5 +77,5 @@ Scale=1
 
 [org.kde.kdecoration2]
 BorderSizeAuto=false
-library=org.kde.klassy
-theme=Klassy
+library=org.kde.breeze
+theme=Breeze
