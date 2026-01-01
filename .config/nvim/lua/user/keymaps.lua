@@ -1,4 +1,15 @@
 local keymap = vim.keymap.set
+-- Set which key
+local wk = require("which-key")
+
+wk.add({
+    { "<leader>f", group = "Find/Telescope" },
+    { "<leader>g", group = "Git" },
+    { "<leader>l", group = "LSP" },
+    { "<leader>w", desc = "Save File" },
+    { "<leader>e", desc = "Toggle Explorer" },
+    { "<leader>x", desc = "Close Buffer" },
+})
 
 -- Set Space as your leader key
 vim.g.mapleader = " "
@@ -56,3 +67,6 @@ keymap("n", "<leader>hp", gs.preview_hunk, { desc = "Preview Git hunk" })
 
 -- Reset/Undo a specific change
 keymap("n", "<leader>hr", gs.reset_hunk, { desc = "Reset Git hunk" })
+
+-- Clipboard
+vim.opt.clipboard = "unnamedplus"

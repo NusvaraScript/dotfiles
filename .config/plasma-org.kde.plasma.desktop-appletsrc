@@ -6,8 +6,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][95]
-ItemGeometries-1366x768=Applet-119:144,80,640,160,0;
-ItemGeometriesHorizontal=Applet-119:144,80,640,160,0;
+ItemGeometries-1366x768=Applet-119:400,256,576,160,0;
+ItemGeometriesHorizontal=Applet-119:400,256,576,160,0;
 activityId=2455bfd8-fafd-4864-ac90-6f77b1afeb32
 formfactor=0
 immutability=1
@@ -25,7 +25,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][95][Wallpaper][org.kde.image][General]
-Image=file:///home/nusvara/Pictures/1363566.png
+Image=file:///home/nusvara/Pictures/Wallpapers/Evangelion.png
 SlidePaths=/home/nusvara/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][96]
@@ -207,7 +207,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][96][Applets][133][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,preferred://browser,applications:kitty.desktop
+launchers=
 
 [Containments][96][Applets][134]
 immutability=1
@@ -224,7 +224,7 @@ plugin=org.kde.plasma.kickoff
 [Containments][96][Applets][163][Configuration]
 PreloadWeight=100
 popupHeight=528
-popupWidth=647
+popupWidth=681
 
 [Containments][96][Applets][163][Configuration][ConfigDialog]
 DialogHeight=630
@@ -253,7 +253,7 @@ immutability=1
 plugin=org.kde.plasma.marginsseparator
 
 [Containments][96][General]
-AppletOrder=163;169;167;168;133;129;134;114;127;135;101;100;115
+AppletOrder=163;169;167;168;127;133;129;134;114;135;101;100;115
 
 [ScreenMapping]
 itemsOnDisabledScreens=
