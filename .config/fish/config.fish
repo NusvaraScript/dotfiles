@@ -7,3 +7,7 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #end
 
 fish_add_path /home/nusvara/.spicetify
+
+# Alias
+alias matrix='cmatrix -C white'
+alias clock='tty-clock -c -C 7'
