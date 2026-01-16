@@ -1,11 +1,11 @@
-[4d87bb92-f0ad-4fb9-b417-f4da860d33ea]
-Description=Window settings for kitty
-title=cachyOS
-titlematch=1
+[3f6fb796-8940-4f83-b99e-3e00451a4464]
+Description=Global Opacity
+opacityactive=99
+opacityactiverule=2
+opacityinactive=99
+opacityinactiverule=2
 types=1
-wmclass=kitty
-wmclassmatch=1
 
 [General]
 count=1
-rules=4d87bb92-f0ad-4fb9-b417-f4da860d33ea
+rules=3f6fb796-8940-4f83-b99e-3e00451a4464

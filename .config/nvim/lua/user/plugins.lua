@@ -117,7 +117,7 @@ require("lazy").setup({
     },
 
     -- Utils
-    { 'vyfor/cord.nvim', build = 'sh ./build', opts = {} },
+    { 'vyfor/cord.nvim',      build = 'sh ./build', opts = {} },
     {
         "folke/which-key.nvim",
         event = "VeryLazy",
@@ -142,4 +142,20 @@ require("lazy").setup({
             },
         },
     },
+
+    -- Discord Presence
+    {
+        "andweeb/presence.nvim",
+        config = function()
+            require("presence").setup({
+                auto_update     = true,
+                display_toolkit = true, -- Shows "Tethered to Neovim"
+                editing_text    = "Editing %s",
+                workspace_text  = "Working on %s",
+            })
+        end
+    },
+
+    -- Blade Syntax
+    { "jwalton512/vim-blade", ft = "blade" },
 })

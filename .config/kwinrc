@@ -1,7 +1,10 @@
 [Desktops]
 Id_1=7d7ea86b-6dc6-4994-844c-8d3901c4a50b
-Number=1
-Rows=1
+Id_2=bfad5b38-0efd-49b0-bd95-f55b57ac5c23
+Id_3=c56ecc9c-8465-4ae4-a648-000a3561615b
+Id_4=64f4ccef-be0c-45ef-b857-0ccf8b21f435
+Number=4
+Rows=4
 
 [Effect-blurplus]
 BottomCornerRadius=1
@@ -15,7 +18,6 @@ TopCornerRadius=1
 [Plugins]
 alt-f4-desktopEnabled=true
 blurEnabled=true
-desktopchangeosdEnabled=false
 hidecursorEnabled=true
 karouselEnabled=true
 krohnkiteEnabled=false
@@ -24,6 +26,9 @@ overviewEnabled=false
 poloniumEnabled=false
 translucencyEnabled=true
 videowallEnabled=false
+
+[Script-desktopchangeosd]
+TextOnly=true
 
 [Script-karousel]
 gapsInnerHorizontal=10
@@ -35,7 +40,6 @@ gapsOuterTop=8
 gestureScroll=true
 gestureScrollInvert=true
 manualScrollStep=400
-offScreenOpacity=95
 resizeNeighborColumn=true
 stackColumnsByDefault=true
 stackOffsetX=10
@@ -60,22 +64,34 @@ tiles={"layoutDirection":"horizontal","tiles":[]}
 [Tiling][4294fd14-e00a-47ee-b5c0-12ff2a29904a][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"floating","tiles":[]}
 
+[Tiling][64f4ccef-be0c-45ef-b857-0ccf8b21f435][acc1c821-e72e-4adf-b18a-b79468d61f69]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][7d7ea86b-6dc6-4994-844c-8d3901c4a50b][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"floating","tiles":[]}
 
 [Tiling][b13b0e80-b4cd-452d-8327-9f02cf5679b3][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][bfad5b38-0efd-49b0-bd95-f55b57ac5c23][acc1c821-e72e-4adf-b18a-b79468d61f69]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][c165716b-f508-43dc-b91c-d045b747171e][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
+[Tiling][c56ecc9c-8465-4ae4-a648-000a3561615b][acc1c821-e72e-4adf-b18a-b79468d61f69]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][f1c52f71-f6bf-4364-8d96-d46b732ed283][acc1c821-e72e-4adf-b18a-b79468d61f69]
 tiles={"layoutDirection":"floating","tiles":[]}
+
+[Windows]
+RollOverDesktops=true
 
 [Xwayland]
 Scale=1
 
 [org.kde.kdecoration2]
 BorderSizeAuto=false
-library=org.kde.breeze
-theme=Breeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Monochrome
